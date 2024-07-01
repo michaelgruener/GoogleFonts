@@ -6,13 +6,21 @@
     src: url('./Playwrite_woff2/static/PlaywriteESDeco-Regular.woff2') format('woff2');
 }
 
+* {
+    font-family: FANCY;
+}
+
+p {
+    text-align: center;
+    font-size: 2rem;
+}
+
 .boxes {
     //cheat to align center
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     background-color: grey;
-    font-family: FANCY;
 
     .box{
         background: linear-gradient(green, blue 95%);
