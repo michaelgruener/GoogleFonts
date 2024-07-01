@@ -1,0 +1,28 @@
+
+@font-face {
+    font-family: 'FANCY';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./Playwrite_woff2/static/PlaywriteESDeco-Regular.woff2') format('woff2');
+}
+
+.boxes {
+    //cheat to align center
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: grey;
+    font-family: FANCY;
+
+    .box{
+        background: linear-gradient(green, blue 95%);
+        margin: 10px;
+        width: 100px;
+        height: 100px;
+    }
+
+}
+
+
+
+
